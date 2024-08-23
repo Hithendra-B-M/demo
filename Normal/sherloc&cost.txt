@@ -1,0 +1,8 @@
+X = L - 1 + ML;
+Y = R - 1 + MR;
+P = abs(L - B) + ML;
+Q = abs(R - B) + MR;
+ML = (X > Y ? X : Y);
+MR = (P > Q ? P : Q);
+} else {
+ML = MR = 0;
